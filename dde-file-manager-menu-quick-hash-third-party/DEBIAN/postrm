@@ -1,9 +1,0 @@
-#!/bin/sh
-
-file="/usr/share/deepin/dde-file-manager/oem-menuextensions/dde-file-manager-menu-quick-hash-third-party.desktop"
-
-if [ -e $file -a -f $file ]
-then
-  rm "/usr/share/deepin/dde-file-manager/oem-menuextensions/dde-file-manager-menu-quick-hash-third-party.desktop"
-fi
-
