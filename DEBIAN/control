@@ -1,0 +1,10 @@
+Package: dde-file-manager-menu-quick-hash-third-party
+Version: 1.0.0
+Section: utils
+Priority: extra
+Architecture: amd64
+Depends: dde-file-manager (>= 4.0), dde-file-manager-menu-oem, coreutils, bash, deepin-terminal
+Installed-Size: 10
+Maintainer: hiplayhi@playhi.net
+Description: Add a group of items for calculating MD5, SHA256, SHA1, SHA512, SHA224, SHA384, BLAKE2 and CRC in the dde-file-manager right-click menu.
+

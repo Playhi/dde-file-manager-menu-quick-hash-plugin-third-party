@@ -1,0 +1,7 @@
+#!/bin/sh
+
+if [ "$1" = "configure" ]; then
+  mkdir -p "/usr/share/deepin/dde-file-manager/oem-menuextensions"
+  cp -a "/usr/lib/dde-file-manager-menu-quick-hash-third-party/hash.desktop" "/usr/share/deepin/dde-file-manager/oem-menuextensions/dde-file-manager-menu-quick-hash-third-party.desktop"
+fi
+
